@@ -47,8 +47,8 @@ What does the dataset represent?
 <br>
 <br>
 
-- <span v-mark.blue="1">**Row**</span> - Each row represents a <span v-mark.blue="1">UFO Sighting</span>
-- **Columns** - Time, location, characteristics, places, day parts <span v-mark.blue="2">(35 columns)</span>
+- <span v-mark.blue="1">**Row**</span> - Each row represents a <span v-mark.blue="1">UFO Sighting</span> (97'708)
+- **Features** - Time, location, characteristics, places, day parts <span v-mark.blue="2">(35 columns)</span>
 - **Time Span** - <span v-mark.blue="3">1925 - 2023</span> 
 - **Locations** - All USA
 - **Data Source**: <span v-mark.blue="4">National UFO Reporting Center</span>
