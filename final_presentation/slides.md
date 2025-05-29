@@ -1,323 +1,89 @@
 ---
-# You can also start simply with 'default'
-theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
-title: Spotify 1.2M+ Songs
+theme: mazluc
+title: UFO Sightings Redux
 info: |
   ## Final Presentation
-  by Mazza Luca, Hoxha Roeld, Masciocchi Andrea
+  by Giada Galdiolo, Luca Mazza, Vasco Silva Pereira 
 
-  Learn more at [GitHub](https://github.com/lucamazzza/spoty)
-# apply unocss classes to the current slide
+  Learn more at [GitHub](https://github.com/lucamazzza/ufo)
 class: text-center
-
-# https://sli.dev/features/drawing
 drawings:
   persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: fade-out
-# enable MDC Syntax: https://sli.dev/features/mdc
+transition: slide-left
 mdc: true
-# open graph
-# seoMeta:
-#  ogImage: https://cover.sli.dev
+colorSchema: dark
 ---
 
 # Final Presentation
 
-Spotify 1.2M+ Songs • *Mazza Luca, Hoxha Roeld, Masciocchi Andrea*
+UFO Sightings Redux • *Giada Galdiolo, Luca Mazza, Vasco Silva Pereira*
 
 <div class="abs-br m-6 text-xl">
-  <a href="https://github.com/lucamazzza/spoty" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
+    <a href="https://github.com/lucamazzza/spoty" target="_blank" class="slidev-icon-btn" style="color: #d693f9">
+        <carbon:logo-github />
+    </a>
+    <a href="https://nbviewer.org/github/lucamazzza/ufo/blob/main/ufo.ipynb" target="_blank" class="slidev-icon-btn" style="color: #d693f9">
+        <carbon:logo-jupyter />
+    </a>
 </div>
 
 ---
-transition: slide-left
+transition: fade-out
 ---
 
-# [Spotify 1.2M+ Songs](https://www.kaggle.com/datasets/rodolfofigueroa/spotify-12m-songs?select=tracks_features.csv)
+# Sightings per Year
 
-What does the dataset represent?
-<br>
-<br>
-<br>
+<!--<img src="./assets/spy.png" width="1000">-->
 
-- **Songs** - Spotify's dataset of 1.2M+ entries (1'204'025)
-- **Row** - Each row represents a song
-- **Columns** - Each column is a characteristic of the song (24 columns)
-- **Time Span**: 1908 - 2020 (Publication Date)
-- **Worldwide** - Songs from all over the world
-
-<br>
-<br>
-<br>
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
----
-transition: slide-left
----
-
-# Why?
-Why is this dataset interesting (to us)?
-
-<br>
-<br>
-<br>
-
-- Spotify is an <span v-mark.blue="1">every-day use</span> for most of us
-- Data Credibility
-- Songs from all over the world
-- Changes over <span v-mark.blue="2">time / history</span> on music
-
-<br>
-<br>
-<br>
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
+<style> h1 { @apply text-5xl; } </style>
 
 ---
 transition: fade-out
 ---
 
-# What we added
+# Distribution of sighting durations
 
-We added some features
-<br>
-<br>
-<br>
+<!--<img src="./assets/dist.png" width="1000">-->
 
-- **Previous Features**: `loudness, speechiness, energy, date_published, ...`
-- Spotify Developer API
-- Through `dataset_generator.py`
-- <span v-mark.blue="1">Artist Popularity</span>
-- <span v-mark.blue="2">Song Genres</span>
-
-<br>
-<br>
-<br>
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
+<style> h1 { @apply text-5xl; } </style>
 
 ---
 transition: fade-out
 ---
 
-# Average Song Duration 
+# Sighting per American State 
 
-<img src="./assets/avg_song_duration.png" width="1000">
+Each 1M People
 
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
+<!--<img src="./assets/sps.png" width="1000">-->
 
----
-transition: slide-left
----
-
-# Loudness vs Energy 
-
-<br>
-
-<img src="./assets/loudness_energy.png" width="600">
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
----
-transition: fade-out 
----
-
-# Songs Samples 
-<br>
-<br>
-<br>
-
-💥 **Loudest Song**: Alarm - Marshmello Remix - *Anne-Marie*, *Marshmello*
-
-<audio controls>
-  <source src="./assets/alarm.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-
-🤫 **Quietest Song**: The Explaination - *XXXTENTACION*
-
-<audio controls>
-  <source src="./assets/theexplaination.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-audio {
-    margin: 20px 0;
-    width: 100%;
-}
-</style>
-
----
-transition: slide-left
----
-
-# Danceability vs Valence 
-
-<img src="./assets/danceability_valence.png" width="1000">
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
+<style> h1 { @apply text-5xl; } </style>
 
 ---
 transition: fade-out
 ---
 
-# Songs Samples 
-<br>
+# Summary Word Frequency
 
-🎉 **Happy**: Merrymaking at My Place - *Calvin Harris*
+<!--<img src="./assets/swf.png" width="800">-->
 
-<audio controls>
-  <source src="./assets/merrymaking.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-😡 **Angry**: good day - 21 Savage
-
-<audio controls>
-  <source src="./assets/goodday.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-😢 **Sad**: Vault Character - Calvin Harris
-
-<audio controls>
-  <source src="./assets/vault.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-😌 **Peaceful**: Leave Before the Lights Come On - *Arctic Monkeys*
-
-<audio controls>
-  <source src="./assets/leave.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-audio {
-    margin: 20px 0;
-    width: 100%;
-}
-</style>
+<style> h1 { @apply text-5xl; } </style>
 
 ---
 transition: fade-out
 ---
 
-# Songs by Genre 
+# Day Part Correlation 
 
-<br>
+<!--<img src="./assets/dpc.png" width="560">-->
 
-<img src="./assets/genres.png" width="700">
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
+<style> h1 { @apply text-5xl; } </style>
 
 ---
 layout: center
 class: text-center
 ---
 
-# Group G
+# Thank you!
 
-[Dataset](https://www.kaggle.com/datasets/rodolfofigueroa/spotify-12m-songs?select=tracks_features.csv) · [GitHub](https://github.com/lucamazzza/spoty)
-
+[Dataset](https://github.com/rfordatascience/tidytuesday/blob/main/data/2023/2023-06-20/readme.md) · [GitHub](https://github.com/lucamazzza/ufo)

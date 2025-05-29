@@ -1,40 +1,32 @@
 ---
-# You can also start simply with 'default'
 theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
-title: Spotify 1.2M+ Songs
+title: UFO Sightings Redux 
 info: |
   ## Dataset Presentation
-  by Mazza Luca, Hoxha Roeld, Masciocchi Andrea
+  by Giada Galdiolo, Luca Mazza, Vasco Silva Pereira 
 
-  Learn more at [GitHub](https://github.com/lucamazzza/spoty)
-# apply unocss classes to the current slide
+  Learn more at [GitHub](https://github.com/lucamazzza/ufo)
 class: text-center
-
-# https://sli.dev/features/drawing
 drawings:
   persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
-# open graph
-# seoMeta:
-#  ogImage: https://cover.sli.dev
 ---
 
 # Dataset Presentation
 
-UFO Sightings Redux • *Giada Galdiolo, Mazza Luca, Vasco Silva Pereira*
+UFO Sightings Redux • *Giada Galdiolo, Luca Mazza, Vasco Silva Pereira*
 
 <div class="abs-br m-6 text-xl">
-  <a href="https://github.com/lucamazzza/ufo" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
+    <a href="https://github.com/lucamazzza/spoty" target="_blank" class="slidev-icon-btn">
+        <carbon:logo-github />
+    </a>
+    <a href="https://nbviewer.org/github/lucamazzza/ufo/blob/main/ufo.ipynb" target="_blank" class="slidev-icon-btn">
+        <carbon:logo-jupyter />
+    </a>
 </div>
+
 
 ---
 transition: fade-out
