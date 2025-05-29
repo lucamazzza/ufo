@@ -27,49 +27,49 @@ UFO Sightings Redux • *Giada Galdiolo, Luca Mazza, Vasco Silva Pereira*
 
 # Northwestern U.S. 
 
-It's the region that has the higher concentration of sightings (per 1M people)
+**It's the region that has the higher concentration of sightings (per 1M people)**
 
-<img src="./assets/states.png" width="700">
+<img src="./assets/s.png" width="700">
 
-<style> h1 { @apply text-5xl; } </style>
+<style> h1 { @apply text-5xl; } h1 + p { @apply opacity-100 }</style>
 
 ---
 
 # Between 1 and 15 minutes
 
-The most frequent durations
+**The most frequent durations**
 
-<img src="./assets/duration_distribution.png" width="700">
+<img src="./assets/dd.png" width="700">
 
-<style> h1 { @apply text-5xl; } </style>
+<style> h1 { @apply text-5xl; } h1 + p { @apply opacity-100 }</style>
 
 ---
 
 # What happens in July? 
 
-A peak during summer mornings of sightings
+**A peak of sightings during summer mornings**
 
-<img src="./assets/peak_during_summer.png" width="550">
+<img src="./assets/pds.png" width="550">
 
-<style> h1 { @apply text-5xl; } </style>
+<style> h1 { @apply text-5xl; } h1 + p { @apply opacity-100 }</style>
 
 ---
 
 # Most common words
 
-The most common word is "light"
+**The most common word is "light"**
 
-<img src="./assets/top_20_common_words.png" width="700">
+<img src="./assets/t20cw.png" width="550">
 
-<style> h1 { @apply text-5xl; } </style>
+<style> h1 { @apply text-5xl; } h1 + p { @apply opacity-100 }</style>
 
 ---
 
 # Behaviour evolves with technology
 
-<img src="./assets/behaviour_over_years.png" width="600">
+<img src="./assets/boy.png" width="600">
 
-<style> h1 { @apply text-5xl; } </style>
+<style> h1 { @apply text-5xl; } h1 + p { @apply opacity-100 }</style>
 
 ---
 layout: center
