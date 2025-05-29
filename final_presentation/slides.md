@@ -7,11 +7,7 @@ info: |
 
   Learn more at [GitHub](https://github.com/lucamazzza/ufo)
 class: text-center
-drawings:
-  persist: false
 transition: slide-left
-mdc: true
-colorSchema: dark
 ---
 
 # Final Presentation
@@ -28,54 +24,40 @@ UFO Sightings Redux • *Giada Galdiolo, Luca Mazza, Vasco Silva Pereira*
 </div>
 
 ---
-transition: fade-out
----
 
-# Sightings per Year
+# Northwestern U.S. 
 
-<!--<img src="./assets/spy.png" width="1000">-->
+It's the region that has the higher concentration of sightings (per 1M people)
 
-<style> h1 { @apply text-5xl; } </style>
-
----
-transition: fade-out
----
-
-# Distribution of sighting durations
-
-<!--<img src="./assets/dist.png" width="1000">-->
+<img src="./assets/states.png" width="700">
 
 <style> h1 { @apply text-5xl; } </style>
 
 ---
-transition: fade-out
----
 
-# Sighting per American State 
+# Between 1 and 15 minutes
 
-Each 1M People
+The most frequent durations
 
-<!--<img src="./assets/sps.png" width="1000">-->
+<img src="./assets/duration_distribution.png" width="700">
 
 <style> h1 { @apply text-5xl; } </style>
 
 ---
-transition: fade-out
----
 
-# Summary Word Frequency
+# What happens in July? 
 
-<!--<img src="./assets/swf.png" width="800">-->
+A peak during summer mornings of sightings
+
+<img src="./assets/peak_during_summer.png" width="550">
 
 <style> h1 { @apply text-5xl; } </style>
 
 ---
-transition: fade-out
----
 
-# Day Part Correlation 
+# Behaviour evolves with technology
 
-<!--<img src="./assets/dpc.png" width="560">-->
+<img src="./assets/behaviour_over_years.png" width="600">
 
 <style> h1 { @apply text-5xl; } </style>
 
