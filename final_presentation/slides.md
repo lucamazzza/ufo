@@ -55,6 +55,16 @@ A peak during summer mornings of sightings
 
 ---
 
+# Most common words
+
+The most common word is "light"
+
+<img src="./assets/top_20_common_words.png" width="700">
+
+<style> h1 { @apply text-5xl; } </style>
+
+---
+
 # Behaviour evolves with technology
 
 <img src="./assets/behaviour_over_years.png" width="600">
