@@ -25,6 +25,16 @@ UFO Sightings Redux • *Giada Galdiolo, Luca Mazza, Vasco Silva Pereira*
 
 ---
 
+# Rising trend from 1993 to 2014 
+
+**This period is marked by the birth of the Internet and some trends**
+
+<img src="./assets/sot.png" width="700">
+
+<style> h1 { @apply text-5xl; } h1 + p { @apply opacity-100 }</style>
+
+---
+
 # Northwestern U.S. 
 
 **It's the region that has the higher concentration of sightings (per 1M people)**
